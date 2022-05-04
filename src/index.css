@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.board {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.game {
+  width: 30vw;
+  display: block;
+  margin: 0 auto;
+}
+.square {
+  padding: 1rem;
+}
