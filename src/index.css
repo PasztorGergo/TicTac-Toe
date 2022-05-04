@@ -17,9 +17,10 @@ code {
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
 .game {
-  width: 30vw;
-  display: block;
-  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .square {
   padding: 1rem;
